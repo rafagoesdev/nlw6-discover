@@ -57,6 +57,13 @@ input, button, .button{
     border-width: 0;
 }
 
+#theme-toggle {
+    width: 14rem;
+    height: 9rem;
+    display: flex;
+}
+
+
 button, .button{
     font-family: 'Poppins';
     font-weight: 500;

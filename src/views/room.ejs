@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="/styles/global.css">
+        <link id = theme rel="stylesheet" href="/styles/global.css">
         <link rel="stylesheet" href="/styles/room.css">
         <link rel="stylesheet" href="/styles/modal.css">
 
@@ -18,14 +18,20 @@
 
         <!-- SCRIPT -->
         <script src="/scripts/main.js" defer type="module"></script>
+        <script src="/scripts/dark.js" defer type="module"></script>
+
     </head>
     <body>
         <div id="room" class="content">
             <header>
                 <a href="/">
-                    <img src="/assets/logo.svg" alt="Rocket.Q Logo"/>
+                    <img id="logo" src="/assets/logo.svg" alt="Rocket.Q Logo"/>
                 </a>
+                <!-- <button id="theme-toggle"> -->
+                    <img id="theme-toggle" src="/assets/dark.png" alt="Criar uma sala">
+                <!-- </button> -->
                 <div class="buttons">
+
                     <div class="button outlined" id="room-id" data-id="<%= roomId %>">
                         #<%= roomId %>
                         <img src="/assets/copy.svg" alt="Copiar numero da sala"/>
