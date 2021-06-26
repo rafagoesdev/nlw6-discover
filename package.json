@@ -1,5 +1,5 @@
 {
-  "name": "Rocket.Q",
+  "name": "rocket.q",
   "version": "1.0.0",
   "description": "Projeto de envio de comentários realizado na NLW 6 da Rocketseat",
   "main": "src/server.js",
